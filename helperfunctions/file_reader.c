@@ -30,7 +30,7 @@ int Read_data_from_file(const char *file_path, struct IntArray *data) {
 
     if (!feof(file)) {
         // fscanf failed to read an integer
-        printf("Error reading integer from file\n");
+        printf("Error reading integer from file.Correct the file\n");
         return -1;
     }
 
