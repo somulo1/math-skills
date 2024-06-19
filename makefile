@@ -45,4 +45,4 @@ run_test: $(EXEC_TEST)
 
 # Clean target to remove object files and executables
 clean:
-	rm -f $(OBJS_ALL) $(EXEC_MAIN) $(EXEC_TEST)
+	rm -f $(OBJS_MAIN) $(OBJS_TEST) $(OBJS_ALL) $(EXEC_MAIN) $(EXEC_TEST)
